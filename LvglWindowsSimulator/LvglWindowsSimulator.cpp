@@ -66,9 +66,9 @@ int main()
         return -1;
     }
 
-    lv_demo_widgets();
+    //lv_demo_widgets();
     //lv_demo_benchmark();
-
+    my_gui();
     while (1)
     {
         uint32_t time_till_next = lv_timer_handler();

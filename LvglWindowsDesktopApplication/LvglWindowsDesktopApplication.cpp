@@ -5,7 +5,6 @@
 #include "lvgl/lvgl.h"
 #include "lvgl/examples/lv_examples.h"
 #include "lvgl/demos/lv_demos.h"
-
 int WINAPI wWinMain(
     _In_ HINSTANCE hInstance,
     _In_opt_ HINSTANCE hPrevInstance,
@@ -76,7 +75,6 @@ int WINAPI wWinMain(
 
     ::lv_demo_widgets();
     //::lv_demo_benchmark();
-
     while (1)
     {
         uint32_t time_till_next = ::lv_timer_handler();

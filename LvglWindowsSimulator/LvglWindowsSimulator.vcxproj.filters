@@ -932,6 +932,9 @@
       <Filter>lvgl\src\widgets\win</Filter>
     </ClInclude>
     <ClInclude Include="lv_conf.h" />
+    <ClInclude Include="..\LvglPlatform\lvgl\demos\widgets\my_gui.h">
+      <Filter>lvgl\demos\widgets</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Manifest Include="LvglWindowsSimulator.manifest" />
@@ -2810,6 +2813,9 @@
       <Filter>lvgl\src\widgets\win</Filter>
     </ClCompile>
     <ClCompile Include="LvglWindowsSimulator.cpp" />
+    <ClCompile Include="..\LvglPlatform\lvgl\demos\widgets\my_gui.c">
+      <Filter>lvgl\demos\widgets</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)..\LvglPlatform\freetype\.clang-format">
